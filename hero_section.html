@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .Hero{
+             min-height: 100vh;
+             background-image: url(hero.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             z-index: 30;
+        }
+        .content{
+            text-align: center;
+        }
+      
+       
+        .content .btn{
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: blue;
+            text-decoration: none;
+            border-radius: 5px;
+            color: whitesmoke;
+            transition: 0.3s ease;
+        }
+        .content .btn:hover{
+        background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="Hero">
+        <div class="content">
+            <a href="index.php?signup=1" class="btn">Get started</a>
+        </div>
+    </div>
+</body>
+</html>
